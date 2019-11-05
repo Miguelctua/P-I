@@ -70,7 +70,7 @@ public class TesteExemplo {
  // 5) função medias de freq ou total conforme tipo = 'f' ou 't'
  public static double Medias(int[] lista,char tipo) {
 	double media = 0;
-	int soma = 0;
+	double soma = 0;
 	int n = 0;
 	if(tipo == 't'){
 		for(int i =0 ; i<lista.length;i++){
